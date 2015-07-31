@@ -1,0 +1,8 @@
+.vagrant
+Gemfile.lock
+spec/fixtures
+pkg/
+.rspec_system/
+*#*
+*~*
+log/

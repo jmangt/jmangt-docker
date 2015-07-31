@@ -1,0 +1,16 @@
+{
+    "name": "jmangt-docker",
+    "version": "0.1.0",
+    "author": "Javier Alvarez <jalvarezsamayoa@gmail.com>",
+    "summary": "Installs Docker",
+    "license": "MIT",
+    "source": "https://github.com/jmangt/jmangt-docker",
+    "project_page": "https://github.com/jmangt/jmangt-docker",
+    "issues_url": "https://github.com/jmangt/jmangt-docker/issues",
+    "dependencies": [
+        {
+            "name": "puppetlabs-stdlib",
+            "version_range": ">= 4.2.0"
+        }
+    ]
+}

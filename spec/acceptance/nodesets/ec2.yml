@@ -1,0 +1,14 @@
+HOSTS:
+  docker:
+    roles:
+      - master
+    vmname: trusty
+    platform: ubuntu-14.04-amd64
+    amisize: c3.large
+    hypervisor : ec2
+    snapshot: foss
+    distmoduledir: /etc/puppet/modules
+    user: ubuntu
+CONFIG:
+  nfs_server: none
+  consoleport: 443

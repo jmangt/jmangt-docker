@@ -1,0 +1,10 @@
+HOSTS:
+  centos-7x64:
+    roles:
+      - master
+    platform: el-6-x86_64
+    box : puppetlabs/centos-7.0-64-puppet
+    hypervisor : vagrant
+CONFIG:
+  type: foss
+  forward_ssh_agent: true

@@ -1,0 +1,13 @@
+AMI: 
+  trusty:
+   :region: eu-west-1
+   :image: 
+     :foss: ami-f0b11187
+  ruby:
+   :region: eu-west-1
+   :image: 
+     :foss: ami-5ac97e2d
+  nodejs:
+   :region: eu-west-1
+   :image: 
+     :foss: ami-6cc97e1b

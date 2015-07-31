@@ -1,0 +1,10 @@
+dependencies:
+  pre:
+    - sh ./config/fog.sh
+    - sh ./config/rsa.sh
+test:
+  override:
+    - bundle exec rake spec:
+        timeout: 600
+    - BEAKER_set=ec2 BEAKER_debug=true bundle exec rake beaker:
+        timeout: 600
